@@ -1,0 +1,50 @@
+servers = (
+  {
+    address = "irc.servercentral.net";
+    chatnet = "EFNet";
+    port = "6667"; 
+    use_ssl = "no";
+    autoconnect = "yes";
+  },
+  { 
+    address = "irc.choopa.net";
+    chatnet = "EFNet";
+    port = "6667"; 
+    use_ssl = "no";
+    autoconnect = "no";
+  },
+  { 
+    address = "chat.freenode.net";
+    chatnet = "FreeNode";
+    port = "6667";
+    use_ssl = "no";
+    autoconnect = "yes";
+  },
+  {
+    address = "irc.floofy-skirts.org";
+    chatnet = "cognet";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
+  },
+  {
+    address = "anarchy.tamu.edu";
+    chatnet = "cognet";
+    port = "6667";
+    use_ssl = "no";
+    autoconnect = "yes";
+  },
+);
+
+chatnets = {
+  EFNet = { type = "IRC"; };
+  freenode = { type = "IRC"; };
+  tamu = { type = "IRC"; };
+};
+
+channels = (
+  { name = "#Flossin"; chatnet = "EFNet"; autojoin = "yes"; },
+  { name = "#tamulug"; chatnet = "tamu"; autojoin = "yes"; },
+  { name = "#python"; chatnet = "freenode"; autojoin = "yes"; }
+  { name = "#nylug"; chatnet = "freenode"; autojoin = "yes"; }
+);
