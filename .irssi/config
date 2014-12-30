@@ -44,6 +44,8 @@ chatnets = {
 
 channels = (
   { name = "#Flossin"; chatnet = "EFNet"; autojoin = "yes"; },
+  { name = "#stocks"; chatnet = "EFNet"; autojoin = "yes"; },
+  { name = "#trading"; chatnet = "EFNet"; autojoin = "yes"; },
   { name = "#tamulug"; chatnet = "tamu"; autojoin = "yes"; },
   { name = "#python"; chatnet = "freenode"; autojoin = "yes"; }
   { name = "#nylug"; chatnet = "freenode"; autojoin = "yes"; }
